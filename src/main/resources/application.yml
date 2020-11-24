@@ -1,0 +1,13 @@
+server:
+    port: 20019
+
+logging:
+    file:
+        name: /log/covid19/korea-open-api-sample.log
+
+openapi:
+    service:
+        url: http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson
+        key: 신청한_OpenAPI_키를_입력하세요
+    
+    
